@@ -49,12 +49,11 @@ ol {
   padding-left: 120px;
 }
 
-//sets footer background and font color to same color as the header
 footer {
-  background: #154360;
+  background: #154360; //sets background to same color as header
   padding: 15px 15px; //adjusts the size of the footer
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: whitesmoke;
+  color: whitesmoke; //sets font color to same as header font color
 }
 
 //pseudo-class for links: blue for unclicked, blueviolet for visited, whitesmoke when hovering cursor over link, and green when clicking.
