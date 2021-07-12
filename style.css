@@ -1,62 +1,61 @@
 body {
-  background: lightgray; //sets background to light gray
+  background: lightgray; /*sets background to light gray*/
 }
 
 img {
-  margin: 10px; //adds margin to image
+  margin: 10px; /*adds margin to image*/
 }
 
 header {
-  background:#154360; //sets background color to dark blue
-  text-align: left; //sets alignment to the left
+  background:#154360; /*sets background color to dark blue*/
+  text-align: left; /*sets alignment to the left*/
   font-family: 'garamond';
   font-size: 30px;
-  color: whitesmoke; //sets font color to off-white
+  color: whitesmoke; /*sets font color to off-white*/
   height: 150px; 
   padding: 35px;
 }
 
 header div {
-  font-size: 10px; //changes "software developer" to size 10 font
+  font-size: 10px; /*changes "software developer" to size 10 font*/
   font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: -25px; //removes some extra unnecessary padding
+  padding: -25px; /*removes some extra unnecessary padding*/
 }
 
-//set h3 (Hi there, about me, and contact me) to left alignment, size 25 font, and papyrus font
 h3 {
   text-align: left;
-  font-size: 25px;
-  font-family: 'papyrus';
+  font-size: 25px; /*set font size 25*/
+  font-family: 'papyrus'; /*sets font to papyrus*/
 }
 
-//sets body text in sections to times new roman, left alignment, and adds some space on right and left sides of webpage
+/*sets body text in sections to times new roman, left alignment, and adds some space on right and left sides of webpage*/
 p {
   font-family: 'Times New Roman', Times, serif;
   text-align: left;
-  padding: 0px 20px; //adds padding to the sides of the page
+  padding: 0px 20px; /*adds padding to the sides of the page*/
 }
 
-//times new roman font and left alignment for lists on webpage
+/*times new roman font and left alignment for lists on webpage*/
 ul, ol {
   font-family: 'Times New Roman', Times, serif;
   text-align: left;
-  list-style-position: inside; //makes bullets and numbers match alignment
-  padding-left: 100px; //indentation
+  list-style-position: inside; /*makes bullets and numbers match alignment*/
+  padding-left: 100px; /*indentation*/
 }
 
-//adds extra left indentation for LinkedIn and GitHub links
+/*adds extra left indentation for LinkedIn and GitHub links*/
 ol {
   padding-left: 120px;
 }
 
 footer {
-  background: #154360; //sets background to same color as header
-  padding: 15px 15px; //adjusts the size of the footer
+  background: #154360; 
+  padding: 15px 15px; /*adjusts the size of the footer*/
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: whitesmoke; //sets font color to same as header font color
+  color: whitesmoke; /*sets font color to same as header*/
 }
 
-//pseudo-class for links: blue for unclicked, blueviolet for visited, whitesmoke when hovering cursor over link, and green when clicking.
+/*pseudo-class for links: blue for unclicked, blueviolet for visited, whitesmoke when hovering cursor over link, and green when clicking.*/
 a:link    { color: blue;  }
 a:visited { color: blueviolet;   }
 a:hover   { color: whitesmoke; }
