@@ -34,11 +34,11 @@ ul, ol {
   font-family: 'Times New Roman', Times, serif;
   text-align: left;
   list-style-position: inside;
-  padding-left: 100px;
+  padding-left: 10px;
 }
 
 ol {
-  padding-left: 120px;
+  padding-left: 10px;
 }
 
 footer {
