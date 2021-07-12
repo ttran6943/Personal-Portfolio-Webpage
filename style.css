@@ -2,6 +2,10 @@ body {
   background: lightgray; //sets background to light gray
 }
 
+img {
+  margin: 10px; //adds margin to image
+}
+
 header {
   background:lightslategray;
   text-align: left;
