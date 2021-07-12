@@ -7,33 +7,36 @@ img {
 }
 
 header {
-  background:lightslategray;
-  text-align: left;
+  background:#154360; //sets background color to dark blue
+  text-align: left; //sets alignment to the left
   font-family: 'garamond';
   font-size: 30px;
-  color: whitesmoke;
-  height: 150px;
+  color: whitesmoke; //sets font color to off-white
+  height: 150px; 
   padding: 35px;
 }
 
 header div {
-  font-size: 10px;
+  font-size: 10px; //changes "software developer" to size 10 font
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding: -25px; //removes some extra unnecessary padding
 }
 
+//set h3 (Hi there, about me, and contact me) to left alignment, size 25 font, and papyrus font
 h3 {
   text-align: left;
   font-size: 25px;
   font-family: 'papyrus';
 }
 
+//sets body text in sections to times new roman, left alignment, and adds some space on right and left sides of webpage
 p {
   font-family: 'Times New Roman', Times, serif;
   text-align: left;
   padding: 0px 20px; //adds padding to the sides of the page
 }
 
+//times new roman font and left alignment for lists on webpage
 ul, ol {
   font-family: 'Times New Roman', Times, serif;
   text-align: left;
@@ -41,18 +44,20 @@ ul, ol {
   padding-left: 100px; //indentation
 }
 
+//adds extra left indentation for LinkedIn and GitHub links
 ol {
   padding-left: 120px;
 }
 
+//sets footer background and font color to same color as the header
 footer {
-  background: lightslategray;
-  padding: 15px 15px;
+  background: #154360;
+  padding: 15px 15px; //adjusts the size of the footer
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: white;
+  color: whitesmoke;
 }
 
-//pseudo-class for links
+//pseudo-class for links: blue for unclicked, blueviolet for visited, whitesmoke when hovering cursor over link, and green when clicking.
 a:link    { color: blue;  }
 a:visited { color: blueviolet;   }
 a:hover   { color: whitesmoke; }
