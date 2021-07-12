@@ -1,5 +1,5 @@
 body {
-  background: lightgray;
+  background: lightgray; //sets background to light gray
 }
 
 header {
@@ -15,7 +15,7 @@ header {
 header div {
   font-size: 10px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: -25px;
+  padding: -25px; //removes some extra unnecessary padding
 }
 
 h3 {
@@ -27,18 +27,18 @@ h3 {
 p {
   font-family: 'Times New Roman', Times, serif;
   text-align: left;
-  padding: 0px 20px;
+  padding: 0px 20px; //adds padding to the sides of the page
 }
 
 ul, ol {
   font-family: 'Times New Roman', Times, serif;
   text-align: left;
-  list-style-position: inside;
-  padding-left: 10px;
+  list-style-position: inside; //makes bullets and numbers match alignment
+  padding-left: 100px; //indentation
 }
 
 ol {
-  padding-left: 10px;
+  padding-left: 120px;
 }
 
 footer {
@@ -47,3 +47,9 @@ footer {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: white;
 }
+
+//pseudo-class for links
+a:link    { color: blue;  }
+a:visited { color: blueviolet;   }
+a:hover   { color: whitesmoke; }
+a:active  { color: green;  }
